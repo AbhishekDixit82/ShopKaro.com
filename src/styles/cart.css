@@ -1,0 +1,22 @@
+.table tr td img {
+    width: 80px !important;
+    height: 80px !important;
+    object-fit: cover;
+}
+th {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+}
+td {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+td i {
+    cursor: pointer;
+    font-size: 2rem;
+}
+.cart__section {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}

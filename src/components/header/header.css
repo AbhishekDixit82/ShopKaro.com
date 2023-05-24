@@ -1,0 +1,288 @@
+.header {
+    width: 100%;
+    height: 70px;
+    background: #e6ebec63;
+    line-height: 70px;
+}
+
+.nav__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.logo img {
+    width: 70px;
+    height: 50px;
+}
+
+.logo p {
+    font-size: 1rem;
+    margin-bottom: -4rem;
+    font-weight: 600;
+    color: red;
+}
+
+.menu {
+    font-size: 1.7rem;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    column-gap: 2.7rem;
+    margin-bottom: 0;
+}
+
+.nav__item a {
+    color: var(--primary-color);
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav__icons {
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+}
+
+.nav__icons span i {
+    font-size: 2.1rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.cart__icon,
+.fav__icon {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 25%;
+    right: -8%;
+    width: 15px;
+    height: 15px;
+    content: '';
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .7rem;
+    font-weight: 600;
+    z-index: 10;
+}
+
+.nav__icons .profile img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 9px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.nav__icons .profile {
+    position: relative;
+    z-index: 9;
+}
+
+.nav__icons .profile .profile__actions {
+    position: absolute;
+    top: 98%;
+    left: -76px;
+    right: 10%;
+    width: 150px;
+    z-index: 10;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: var(--card-bg-01);
+    line-height: 30px;
+    display: none;
+    cursor: pointer;
+}
+
+.profile .profile__actions.show__profileActions {
+    display: block;
+}
+
+.mobile__menu {
+    font-size: 2.3rem;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+    display: none;
+}
+
+.nav__active {
+    font-weight: 600 !important;
+}
+
+.sticky__header {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 3px 3px 8px -3px #ddd;
+    background: var(--card-bg-01);
+}
+
+
+
+
+/*===Media Queries===*/
+@media only screen and (max-width: 768px) {
+
+    /* code for screen sizes up to 768px */
+    .navigation {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.53);
+        z-index: 9999;
+        display: none;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 250px;
+        height: 100%;
+        background: #fff;
+        z-index: 99999;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .active__menu {
+        display: block;
+    }
+
+    .mobile__menu {
+        font-size: 2.3rem;
+        margin-bottom: 5px;
+        color: var(--primary-color);
+        display: block;
+    }
+
+    .mobile__menu span {
+        font-size: 1.1rem;
+    }
+
+    .logo img {
+        width: 6rem;
+        height: 4rem;
+    }
+
+    .fav__icon i,
+    .cart__icon i {
+        font-size: 2rem !important;
+    }
+
+    .nav__icons span img {
+        width: 2rem;
+        height: 2rem;
+        cursor: pointer;
+    }
+
+    .header {
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .header {
+        height: 60px;
+    }
+
+    .logo img {
+        width: 50px;
+        height: 35px;
+    }
+
+    .menu {
+        font-size: 1.4rem;
+        column-gap: 1.5rem;
+    }
+
+    .nav__icons {
+        column-gap: 2rem;
+    }
+
+    .nav__icons span i {
+        font-size: 1.7rem;
+    }
+
+    .badge {
+        font-size: 0.6rem;
+    }
+
+    .nav__icons span img {
+        width: 25px;
+        height: 25px;
+        margin-bottom: 7px;
+    }
+
+    .mobile__menu {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    /* code for screen sizes between 769px and 1024px */
+    .header {
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .menu {
+        font-size: 1.4rem;
+        column-gap: 1.7rem;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+    /* code for screen sizes between 1025px and 1280px */
+    .header {
+        height: 70px;
+        line-height: 70px;
+    }
+
+    .menu {
+        font-size: 1.6rem;
+        column-gap: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1281px) {
+
+    /* code for screen sizes larger than 1280px */
+    .header {
+        height: 80px;
+        line-height: 80px;
+    }
+
+    .menu {
+        font-size: 1.8rem;
+        column-gap: 2.3rem;
+    }
+}

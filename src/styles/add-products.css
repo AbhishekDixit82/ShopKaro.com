@@ -1,0 +1,35 @@
+/* AddProducts.css */
+  .form__group {
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  span {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .w-50,
+    .w-40 {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    input[type="text"],
+    input[type="number"],
+    select {
+      font-size: 14px;
+    }
+  }
+  

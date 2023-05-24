@@ -1,0 +1,35 @@
+.auth__form {
+    background: var(--primary-color);
+    padding: 2rem 0rem;
+    border-radius: 15px;
+}
+
+.auth__form p{
+    margin-top: 30px;
+    font-size: 1.4rem;
+}
+
+.auth__form p a {
+    color: #ffffffd5;
+    font-size: 1.3rem;
+}
+
+.auth__form input[type='file'] {
+    color: #fff;
+    cursor: pointer;
+}
+
+.mb-3 {
+    display: flex;
+    margin-bottom: 1rem !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__group input {
+    font-size: 1.5rem;
+}
+
+.form__group {
+    display: block;
+}
