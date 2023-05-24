@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ShopKaro.com/static/css/main.5dc84e56.css",
+    "main.js": "/ShopKaro.com/static/js/main.285986ce.js",
+    "static/media/common-section-bg.jpg": "/ShopKaro.com/static/media/common-section-bg.d5290da8f396a04976b7.jpg",
+    "static/media/remixicon.svg?t=1681573354175": "/ShopKaro.com/static/media/remixicon.7b85b7f8453487681fc4.svg",
+    "static/media/counter-timer-img.png": "/ShopKaro.com/static/media/counter-timer-img.63337a99e4f82f8811a8.png",
+    "static/media/remixicon.eot?t=1681573354175": "/ShopKaro.com/static/media/remixicon.ae7015155af44fd22375.eot",
+    "static/media/remixicon.ttf?t=1681573354175": "/ShopKaro.com/static/media/remixicon.8df75b42f93ef0e1f8aa.ttf",
+    "static/media/hero-img.png": "/ShopKaro.com/static/media/hero-img.4cb525f5d6bac4b5af39.png",
+    "static/media/remixicon.woff?t=1681573354175": "/ShopKaro.com/static/media/remixicon.56b6495e17f23a23803a.woff",
+    "static/media/dgwatch.png": "/ShopKaro.com/static/media/dgwatch.5deea6e9943f48f05df2.png",
+    "static/media/phone1.png": "/ShopKaro.com/static/media/phone1.7e07563194b902a32a82.png",
+    "static/media/remixicon.woff2?t=1681573354175": "/ShopKaro.com/static/media/remixicon.52f02e1386dd3597bc00.woff2",
+    "static/media/sitelogo.png": "/ShopKaro.com/static/media/sitelogo.65cad90d1524315f7461.png",
+    "static/media/admin-logo.png": "/ShopKaro.com/static/media/admin-logo.89f7ecdc82fc277ea0e8.png",
+    "static/media/footer-logo.png": "/ShopKaro.com/static/media/footer-logo.89f7ecdc82fc277ea0e8.png",
+    "index.html": "/ShopKaro.com/index.html",
+    "main.5dc84e56.css.map": "/ShopKaro.com/static/css/main.5dc84e56.css.map",
+    "main.285986ce.js.map": "/ShopKaro.com/static/js/main.285986ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5dc84e56.css",
+    "static/js/main.285986ce.js"
+  ]
+}
